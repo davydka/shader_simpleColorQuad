@@ -16,8 +16,8 @@ void ofApp::draw(){
 
 	shader.begin();
 
-	//ofRect(-ofGetWidth()/2, -ofGetHeight()/2, ofGetWidth(), ofGetHeight());
-	ofRect(0, 0, ofGetWidth(), ofGetHeight());
+	ofRect(-ofGetWidth()/2, -ofGetHeight()/2, ofGetWidth(), ofGetHeight());
+	//ofRect(0, 0, ofGetWidth(), ofGetHeight());
 
 	shader.end();
 }
